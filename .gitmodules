@@ -1,0 +1,3 @@
+[submodule "upstream/raylib"]
+	path = upstream/raylib
+	url = git@github.com:raysan5/raylib.git

@@ -1,0 +1,2 @@
+#define TittatVersionMajor @tittat_VERSION_MAJOR@
+#define TittatVersionMinor @tittat_VERSION_MINOR@
