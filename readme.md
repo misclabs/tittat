@@ -11,6 +11,7 @@ Sounds were generated with [jsfxr](https://sfxr.me/).
 ### Libraries
 
 Tittat uses the fantastic [raylib](https://www.raylib.com/). It's linked as a git submodule and can be retrieved using:
+
 `git submodule update --init --recursive`
 
 ### Tools
@@ -30,7 +31,9 @@ I've only tested on win32 and web platforms. Everything[^1] is written to be por
 Once you've got raylib by updating submodules and install the necessary tools (see above) you should be able to use one of the `build_*.bat` files to configure, build, and run Tittat. For example:
 
 `build_win32 debug configure`
+
 `build_win32 debug build`
+
 `build_win32 debug run`
 
 `build_web.bat` assumes the environment has been setup for emscripten with `emsdk_env.bat` or something equivalent. `build_web BUILD_TYPE run` tries to run `http-server` rooting in the build targets build directory.
